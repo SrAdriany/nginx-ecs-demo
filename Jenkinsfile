@@ -7,7 +7,7 @@ pipeline {
         string(name: 'ECS_CLUSTER', defaultValue: 'ecs-lab-cluster')
         string(name: 'ECS_SERVICE', defaultValue: 'nginx-lab-svc')
         string(name: 'TASK_FAMILY', defaultValue: 'nginx-lab-task')
-        string(name: 'ACCOUNT_ID', defaultValue: '096863133016') // Reemplaza con tu ID de cuenta de AWS
+        string(name: 'ACCOUNT_ID', defaultValue: '331785602719') // Reemplaza con tu ID de cuenta de AWS
     }
 
     environment {
